@@ -1,0 +1,85 @@
+export type Report = {
+  id: string;
+  ticket_id: string;
+  reporter_id: string;
+  road_segment_id: string;
+  lat: number;
+  lng: number;
+  location_source: string;
+  note: string;
+  status: string;
+  incident_id: string | null;
+  created_at: string;
+  photo_url?: string | null;
+};
+export type Incident = {
+  id: string;
+  road_segment_id: string;
+  lat: number;
+  lng: number;
+  severity: number;
+  sensitive_location: boolean;
+  status: string;
+  opened_at: string;
+  previous_repair_id: string | null;
+};
+export type Repair = {
+  id: string;
+  incident_id: string;
+  owner: string;
+  due_date: string;
+  contractor_name: string | null;
+  warranty_days: number;
+  repaired_at: string | null;
+  verified_at: string | null;
+  verified_by: string | null;
+  photo_url?: string | null;
+};
+export type Suggestion = {
+  id: string;
+  entity_type: string;
+  entity_id: string;
+  kind: string;
+  model: string;
+  model_version: string;
+  confidence: number;
+  input_snapshot: unknown;
+  output: Record<string, unknown>;
+  decision: string;
+  decided_by: string | null;
+  decided_at: string | null;
+  created_at: string;
+  input_hash?: string;
+};
+export type Event = {
+  id: string;
+  entity_type: string;
+  entity_id: string;
+  from_status: string | null;
+  to_status: string;
+  actor_id: string;
+  reason: string;
+  created_at: string;
+};
+export type Note = {
+  id: string;
+  report_id: string;
+  actor_id: string;
+  note: string;
+  created_at: string;
+};
+export type Road = { id: string; name: string; ward_id: string };
+export type Dataset = {
+  roads: Road[];
+  reports: Report[];
+  incidents: Incident[];
+  jobs: Repair[];
+  suggestions: Suggestion[];
+  events: Event[];
+  notes: Note[];
+  officers: { id: string; name: string }[];
+  demo: boolean;
+  role: "citizen" | "officer" | "reviewer";
+  name: string;
+  userId: string;
+};

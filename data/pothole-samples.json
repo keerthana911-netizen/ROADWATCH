@@ -1,0 +1,286 @@
+{
+  "dataset": "yamqwe/potholes-object-detection",
+  "version": 1,
+  "title": "Potholes Object Detection",
+  "sourceUrl": "https://www.kaggle.com/datasets/yamqwe/potholes-object-detection",
+  "originalAuthor": "Make ML",
+  "originalSourceUrl": "https://makeml.app/datasets/potholes",
+  "license": "CC0: Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "retrievedAt": "2026-10-09T16:32:47.0122353Z",
+  "datasetLastUpdated": "2021-12-09T13:45:48.53Z",
+  "annotationFormat": "PASCAL VOC",
+  "totalImagesDeclared": 600,
+  "limitations": "Dataset samples are not verified Chennai complaints. Coordinates, dates, severity, contractors and repair histories in the demo are simulated. Boxes are dataset annotations, not RoadWatch predictions. No model has been trained or evaluated on this sample.",
+  "samples": [
+    {
+      "id": "potholes1",
+      "image": "/dataset-potholes/potholes1.png",
+      "originalFile": "images/potholes1.png",
+      "annotationFile": "data/pothole-samples/potholes1.xml",
+      "width": 400,
+      "height": 300,
+      "boxes": [
+        {
+          "label": "pothole",
+          "xmin": 4,
+          "ymin": 141,
+          "xmax": 394,
+          "ymax": 264
+        },
+        {
+          "label": "pothole",
+          "xmin": 198,
+          "ymin": 111,
+          "xmax": 283,
+          "ymax": 135
+        }
+      ],
+      "sha256": "a52e52d627d971e27fc341c4c70b6047f3d07c7bed418991cc806f28aaf17e94"
+    },
+    {
+      "id": "potholes10",
+      "image": "/dataset-potholes/potholes10.png",
+      "originalFile": "images/potholes10.png",
+      "annotationFile": "data/pothole-samples/potholes10.xml",
+      "width": 400,
+      "height": 400,
+      "boxes": [
+        {
+          "label": "pothole",
+          "xmin": 137,
+          "ymin": 174,
+          "xmax": 238,
+          "ymax": 307
+        },
+        {
+          "label": "pothole",
+          "xmin": 234,
+          "ymin": 172,
+          "xmax": 294,
+          "ymax": 224
+        }
+      ],
+      "sha256": "a5cca9772237b95c10cb7b90048f04d7d193fb719d0b59078cfdcf4ed631d2ed"
+    },
+    {
+      "id": "potholes100",
+      "image": "/dataset-potholes/potholes100.png",
+      "originalFile": "images/potholes100.png",
+      "annotationFile": "data/pothole-samples/potholes100.xml",
+      "width": 400,
+      "height": 300,
+      "boxes": [
+        {
+          "label": "pothole",
+          "xmin": 257,
+          "ymin": 54,
+          "xmax": 378,
+          "ymax": 126
+        }
+      ],
+      "sha256": "4f3f4e5a05bf26596bc40762a4267ceddad19765a20ab9157313e567c61e9116"
+    },
+    {
+      "id": "potholes103",
+      "image": "/dataset-potholes/potholes103.png",
+      "originalFile": "images/potholes103.png",
+      "annotationFile": "data/pothole-samples/potholes103.xml",
+      "width": 467,
+      "height": 300,
+      "boxes": [
+        {
+          "label": "pothole",
+          "xmin": 165,
+          "ymin": 90,
+          "xmax": 389,
+          "ymax": 266
+        },
+        {
+          "label": "pothole",
+          "xmin": 90,
+          "ymin": 150,
+          "xmax": 136,
+          "ymax": 174
+        },
+        {
+          "label": "pothole",
+          "xmin": 57,
+          "ymin": 89,
+          "xmax": 103,
+          "ymax": 118
+        }
+      ],
+      "sha256": "5ceb4ca7d1ee42f538b865eab7fc5f39f9e697261308ee90e66322ebc53f0db3"
+    },
+    {
+      "id": "potholes105",
+      "image": "/dataset-potholes/potholes105.png",
+      "originalFile": "images/potholes105.png",
+      "annotationFile": "data/pothole-samples/potholes105.xml",
+      "width": 400,
+      "height": 300,
+      "boxes": [
+        {
+          "label": "pothole",
+          "xmin": 78,
+          "ymin": 201,
+          "xmax": 191,
+          "ymax": 299
+        },
+        {
+          "label": "pothole",
+          "xmin": 1,
+          "ymin": 104,
+          "xmax": 131,
+          "ymax": 170
+        },
+        {
+          "label": "pothole",
+          "xmin": 132,
+          "ymin": 124,
+          "xmax": 173,
+          "ymax": 151
+        },
+        {
+          "label": "pothole",
+          "xmin": 195,
+          "ymin": 156,
+          "xmax": 313,
+          "ymax": 227
+        },
+        {
+          "label": "pothole",
+          "xmin": 203,
+          "ymin": 111,
+          "xmax": 311,
+          "ymax": 150
+        },
+        {
+          "label": "pothole",
+          "xmin": 244,
+          "ymin": 84,
+          "xmax": 302,
+          "ymax": 105
+        },
+        {
+          "label": "pothole",
+          "xmin": 159,
+          "ymin": 80,
+          "xmax": 210,
+          "ymax": 96
+        },
+        {
+          "label": "pothole",
+          "xmin": 368,
+          "ymin": 163,
+          "xmax": 400,
+          "ymax": 195
+        }
+      ],
+      "sha256": "448ca1a628adb5b6420c75beca8bf6232438fe2ce0652850a14231b9d940a19a"
+    },
+    {
+      "id": "potholes108",
+      "image": "/dataset-potholes/potholes108.png",
+      "originalFile": "images/potholes108.png",
+      "annotationFile": "data/pothole-samples/potholes108.xml",
+      "width": 442,
+      "height": 300,
+      "boxes": [
+        {
+          "label": "pothole",
+          "xmin": 201,
+          "ymin": 216,
+          "xmax": 299,
+          "ymax": 271
+        },
+        {
+          "label": "pothole",
+          "xmin": 209,
+          "ymin": 137,
+          "xmax": 289,
+          "ymax": 165
+        },
+        {
+          "label": "pothole",
+          "xmin": 252,
+          "ymin": 112,
+          "xmax": 316,
+          "ymax": 131
+        },
+        {
+          "label": "pothole",
+          "xmin": 266,
+          "ymin": 94,
+          "xmax": 311,
+          "ymax": 106
+        },
+        {
+          "label": "pothole",
+          "xmin": 212,
+          "ymin": 104,
+          "xmax": 268,
+          "ymax": 121
+        },
+        {
+          "label": "pothole",
+          "xmin": 154,
+          "ymin": 122,
+          "xmax": 198,
+          "ymax": 135
+        },
+        {
+          "label": "pothole",
+          "xmin": 157,
+          "ymin": 111,
+          "xmax": 193,
+          "ymax": 122
+        },
+        {
+          "label": "pothole",
+          "xmin": 196,
+          "ymin": 97,
+          "xmax": 219,
+          "ymax": 104
+        },
+        {
+          "label": "pothole",
+          "xmin": 244,
+          "ymin": 87,
+          "xmax": 277,
+          "ymax": 95
+        },
+        {
+          "label": "pothole",
+          "xmin": 228,
+          "ymin": 80,
+          "xmax": 263,
+          "ymax": 88
+        },
+        {
+          "label": "pothole",
+          "xmin": 26,
+          "ymin": 214,
+          "xmax": 70,
+          "ymax": 241
+        },
+        {
+          "label": "pothole",
+          "xmin": 257,
+          "ymin": 69,
+          "xmax": 281,
+          "ymax": 76
+        },
+        {
+          "label": "pothole",
+          "xmin": 139,
+          "ymin": 100,
+          "xmax": 174,
+          "ymax": 110
+        }
+      ],
+      "sha256": "958355d9a6d9fe064c8d68b6d4736172bbff7a483625ec3e5ffe5eeadcaaf844"
+    }
+  ]
+}

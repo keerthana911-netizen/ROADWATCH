@@ -1,0 +1,1003 @@
+{
+  "roads": [
+    {
+      "id": "00000000-0000-4000-8000-000000000101",
+      "name": "College Road",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000102",
+      "name": "Station Road",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000103",
+      "name": "Market Street",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000104",
+      "name": "Lake Avenue",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000105",
+      "name": "Hospital Road",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000106",
+      "name": "Gandhi Street",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000107",
+      "name": "Park Lane",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000108",
+      "name": "Temple Road",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000109",
+      "name": "Canal Street",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000110",
+      "name": "North Main Road",
+      "ward_id": "00000000-0000-4000-8000-000000000001"
+    }
+  ],
+  "reports": [
+    {
+      "id": "00000000-0000-4000-8000-000000000301",
+      "ticket_id": "RW-0001",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "location_source": "gps",
+      "note": "Deep pothole outside the college gate.",
+      "status": "closed",
+      "incident_id": "00000000-0000-4000-8000-000000000201",
+      "created_at": "2026-08-05T14:24:00.000Z",
+      "photo_url": "/dataset-potholes/potholes1.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000302",
+      "ticket_id": "RW-0002",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "location_source": "manual_pin",
+      "note": "Same hole near the college crossing.",
+      "status": "closed",
+      "incident_id": "00000000-0000-4000-8000-000000000201",
+      "created_at": "2026-08-05T16:48:00.000Z",
+      "photo_url": "/dataset-potholes/potholes1.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000303",
+      "ticket_id": "RW-0003",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "location_source": "gps",
+      "note": "Water pooling in the broken surface.",
+      "status": "closed",
+      "incident_id": "00000000-0000-4000-8000-000000000201",
+      "created_at": "2026-08-05T19:12:00.000Z",
+      "photo_url": "/dataset-potholes/potholes1.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000304",
+      "ticket_id": "RW-0004",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "location_source": "manual_pin",
+      "note": "Unsafe for bicycles at the college entrance.",
+      "status": "closed",
+      "incident_id": "00000000-0000-4000-8000-000000000201",
+      "created_at": "2026-08-05T21:36:00.000Z",
+      "photo_url": "/dataset-potholes/potholes1.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000305",
+      "ticket_id": "RW-0005",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "location_source": "gps",
+      "note": "Please repair before the school rush.",
+      "status": "closed",
+      "incident_id": "00000000-0000-4000-8000-000000000201",
+      "created_at": "2026-08-06T00:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes1.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000306",
+      "ticket_id": "RW-0006",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "location_source": "manual_pin",
+      "note": "Surface has broken again at the repaired college entrance.",
+      "status": "grouped",
+      "incident_id": "00000000-0000-4000-8000-000000000202",
+      "created_at": "2026-09-29T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes10.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000307",
+      "ticket_id": "RW-0007",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000102",
+      "lat": 13.085,
+      "lng": 80.271,
+      "location_source": "gps",
+      "note": "Pothole near station north gate.",
+      "status": "assigned",
+      "incident_id": "00000000-0000-4000-8000-000000000204",
+      "created_at": "2026-10-07T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes103.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000308",
+      "ticket_id": "RW-0008",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000102",
+      "lat": 13.08527,
+      "lng": 80.271,
+      "location_source": "manual_pin",
+      "note": "Separate pothole 30 metres further along.",
+      "status": "grouped",
+      "incident_id": "00000000-0000-4000-8000-000000000205",
+      "created_at": "2026-10-07T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes105.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000309",
+      "ticket_id": "RW-0009",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000103",
+      "lat": 13.081,
+      "lng": 80.273,
+      "location_source": "gps",
+      "note": "Broken asphalt outside the market.",
+      "status": "assigned",
+      "incident_id": "00000000-0000-4000-8000-000000000206",
+      "created_at": "2026-09-27T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes108.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000310",
+      "ticket_id": "RW-0010",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000105",
+      "lat": 13.084,
+      "lng": 80.268,
+      "location_source": "manual_pin",
+      "note": "Dangerous depression near hospital.",
+      "status": "repaired_pending_review",
+      "incident_id": "00000000-0000-4000-8000-000000000207",
+      "created_at": "2026-10-03T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes1.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000311",
+      "ticket_id": "RW-0011",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000104",
+      "lat": 13.078,
+      "lng": 80.274,
+      "location_source": "gps",
+      "note": "Small pothole beside the lake.",
+      "status": "assigned",
+      "incident_id": "00000000-0000-4000-8000-000000000208",
+      "created_at": "2026-10-02T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes10.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000312",
+      "ticket_id": "RW-0012",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.08278,
+      "lng": 80.27074,
+      "location_source": "manual_pin",
+      "note": "Fresh damage at the college gate. GPS may have drifted.",
+      "status": "submitted",
+      "incident_id": null,
+      "created_at": "2026-10-09T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes103.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000313",
+      "ticket_id": "RW-0013",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000107",
+      "lat": 13.079,
+      "lng": 80.269,
+      "location_source": "gps",
+      "note": "Shallow crack at Park Lane bus stop.",
+      "status": "submitted",
+      "incident_id": null,
+      "created_at": "2026-10-09T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes100.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000314",
+      "ticket_id": "RW-0014",
+      "reporter_id": "00000000-0000-4000-8000-000000000002",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "location_source": "manual_pin",
+      "note": "Earlier road failure at the college gate.",
+      "status": "closed",
+      "incident_id": "00000000-0000-4000-8000-000000000203",
+      "created_at": "2026-06-01T12:00:00.000Z",
+      "photo_url": "/dataset-potholes/potholes100.png"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "00000000-0000-4000-8000-000000000203",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "opened_at": "2026-06-01T12:00:00.000Z",
+      "severity": 0.8,
+      "sensitive_location": true,
+      "status": "closed",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "previous_repair_id": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000201",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "opened_at": "2026-08-05T12:00:00.000Z",
+      "severity": 0.85,
+      "sensitive_location": true,
+      "status": "closed",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "previous_repair_id": "00000000-0000-4000-8000-000000000503"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000202",
+      "road_segment_id": "00000000-0000-4000-8000-000000000101",
+      "opened_at": "2026-09-29T12:00:00.000Z",
+      "severity": 0.9,
+      "sensitive_location": true,
+      "status": "open",
+      "lat": 13.08272,
+      "lng": 80.27071,
+      "previous_repair_id": "00000000-0000-4000-8000-000000000501"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000204",
+      "road_segment_id": "00000000-0000-4000-8000-000000000102",
+      "opened_at": "2026-10-07T12:00:00.000Z",
+      "severity": 0.7,
+      "sensitive_location": false,
+      "status": "assigned",
+      "lat": 13.085,
+      "lng": 80.271,
+      "previous_repair_id": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000205",
+      "road_segment_id": "00000000-0000-4000-8000-000000000102",
+      "opened_at": "2026-10-07T12:00:00.000Z",
+      "severity": 0.5,
+      "sensitive_location": false,
+      "status": "open",
+      "lat": 13.08527,
+      "lng": 80.271,
+      "previous_repair_id": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000206",
+      "road_segment_id": "00000000-0000-4000-8000-000000000103",
+      "opened_at": "2026-09-27T12:00:00.000Z",
+      "severity": 0.65,
+      "sensitive_location": false,
+      "status": "assigned",
+      "lat": 13.081,
+      "lng": 80.273,
+      "previous_repair_id": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000207",
+      "road_segment_id": "00000000-0000-4000-8000-000000000105",
+      "opened_at": "2026-10-03T12:00:00.000Z",
+      "severity": 0.8,
+      "sensitive_location": true,
+      "status": "repaired_pending_review",
+      "lat": 13.084,
+      "lng": 80.268,
+      "previous_repair_id": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000208",
+      "road_segment_id": "00000000-0000-4000-8000-000000000104",
+      "opened_at": "2026-10-02T12:00:00.000Z",
+      "severity": 0.25,
+      "sensitive_location": false,
+      "status": "assigned",
+      "lat": 13.078,
+      "lng": 80.274,
+      "previous_repair_id": null
+    }
+  ],
+  "jobs": [
+    {
+      "id": "00000000-0000-4000-8000-000000000503",
+      "incident_id": "00000000-0000-4000-8000-000000000203",
+      "owner": "00000000-0000-4000-8000-000000000003",
+      "due_date": "2026-06-29",
+      "contractor_name": "Metro Roads Ltd.",
+      "warranty_days": 90,
+      "repaired_at": "2026-07-01T12:00:00.000Z",
+      "verified_at": "2026-07-02T12:00:00.000Z",
+      "verified_by": "00000000-0000-4000-8000-000000000004",
+      "photo_url": "/demo-repair.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000501",
+      "incident_id": "00000000-0000-4000-8000-000000000201",
+      "owner": "00000000-0000-4000-8000-000000000003",
+      "due_date": "2026-08-24",
+      "contractor_name": "Metro Roads Ltd.",
+      "warranty_days": 90,
+      "repaired_at": "2026-08-25T12:00:00.000Z",
+      "verified_at": "2026-08-26T12:00:00.000Z",
+      "verified_by": "00000000-0000-4000-8000-000000000004",
+      "photo_url": "/demo-repair.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000506",
+      "incident_id": "00000000-0000-4000-8000-000000000206",
+      "owner": "00000000-0000-4000-8000-000000000003",
+      "due_date": "2026-10-06",
+      "contractor_name": "City Works",
+      "warranty_days": 90,
+      "repaired_at": null,
+      "verified_at": null,
+      "verified_by": null,
+      "photo_url": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000507",
+      "incident_id": "00000000-0000-4000-8000-000000000207",
+      "owner": "00000000-0000-4000-8000-000000000003",
+      "due_date": "2026-10-07",
+      "contractor_name": "City Works",
+      "warranty_days": 90,
+      "repaired_at": "2026-10-08T12:00:00.000Z",
+      "verified_at": null,
+      "verified_by": null,
+      "photo_url": "/demo-repair.png"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000504",
+      "incident_id": "00000000-0000-4000-8000-000000000204",
+      "owner": "00000000-0000-4000-8000-000000000003",
+      "due_date": "2026-10-10",
+      "contractor_name": "City Works",
+      "warranty_days": 90,
+      "repaired_at": null,
+      "verified_at": null,
+      "verified_by": null,
+      "photo_url": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000508",
+      "incident_id": "00000000-0000-4000-8000-000000000208",
+      "owner": "00000000-0000-4000-8000-000000000003",
+      "due_date": "2026-10-12",
+      "contractor_name": "Metro Roads Ltd.",
+      "warranty_days": 90,
+      "repaired_at": null,
+      "verified_at": null,
+      "verified_by": null,
+      "photo_url": null
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "00000000-0000-4000-8000-000000000701",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000312",
+      "kind": "photo_triage",
+      "model": "demo:gpt-4o",
+      "model_version": "demo-fixture-v1",
+      "confidence": 0.78,
+      "input_snapshot": {
+        "demo": true,
+        "report_id": "00000000-0000-4000-8000-000000000312"
+      },
+      "output": {
+        "is_pothole": true,
+        "severity_estimate": 0.85,
+        "sensitive_hint": "school",
+        "reasoning": "The visible depression looks deep; the note mentions a college entrance."
+      },
+      "decision": "pending",
+      "decided_by": null,
+      "decided_at": null,
+      "created_at": "2026-10-08T12:00:00.000Z",
+      "input_hash": "demo-701"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000702",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000313",
+      "kind": "photo_triage",
+      "model": "demo:gpt-4o",
+      "model_version": "demo-fixture-v1",
+      "confidence": 0.78,
+      "input_snapshot": {
+        "demo": true,
+        "report_id": "00000000-0000-4000-8000-000000000313"
+      },
+      "output": {
+        "is_pothole": true,
+        "severity_estimate": 0.3,
+        "sensitive_hint": "none",
+        "reasoning": "The surface appears shallow with no sensitive landmark identified."
+      },
+      "decision": "pending",
+      "decided_by": null,
+      "decided_at": null,
+      "created_at": "2026-10-08T12:00:00.000Z",
+      "input_hash": "demo-702"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000703",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000310",
+      "kind": "photo_triage",
+      "model": "demo:gpt-4o",
+      "model_version": "demo-fixture-v1",
+      "confidence": 0.78,
+      "input_snapshot": {
+        "demo": true,
+        "report_id": "00000000-0000-4000-8000-000000000310"
+      },
+      "output": {
+        "is_pothole": true,
+        "severity_estimate": 0.8,
+        "sensitive_hint": "hospital",
+        "reasoning": "Damage was reviewed near a hospital entrance."
+      },
+      "decision": "accepted",
+      "decided_by": "00000000-0000-4000-8000-000000000003",
+      "decided_at": "2026-10-08T12:00:00.000Z",
+      "created_at": "2026-10-08T12:00:00.000Z",
+      "input_hash": "demo-703"
+    }
+  ],
+  "events": [
+    {
+      "id": "00000000-0000-4000-8000-000000000800",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000301",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-08-05T14:24:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000801",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000301",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-08-05T14:24:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000802",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000301",
+      "from_status": "grouped",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Reviewer verified the repair and after-photo",
+      "created_at": "2026-08-26T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000803",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000302",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-08-05T16:48:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000804",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000302",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-08-05T16:48:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000805",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000302",
+      "from_status": "grouped",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Reviewer verified the repair and after-photo",
+      "created_at": "2026-08-26T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000806",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000303",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-08-05T19:12:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000807",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000303",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-08-05T19:12:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000808",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000303",
+      "from_status": "grouped",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Reviewer verified the repair and after-photo",
+      "created_at": "2026-08-26T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000809",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000304",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-08-05T21:36:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000810",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000304",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-08-05T21:36:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000811",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000304",
+      "from_status": "grouped",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Reviewer verified the repair and after-photo",
+      "created_at": "2026-08-26T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000812",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000305",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000813",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000305",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000814",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000305",
+      "from_status": "grouped",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Reviewer verified the repair and after-photo",
+      "created_at": "2026-08-26T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000815",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000306",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000816",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000306",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000817",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000307",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000818",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000307",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000819",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000307",
+      "from_status": "grouped",
+      "to_status": "assigned",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Repair job progress recorded",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000820",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000308",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000821",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000308",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000822",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000309",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-09-27T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000823",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000309",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-09-27T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000824",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000309",
+      "from_status": "grouped",
+      "to_status": "assigned",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Repair job progress recorded",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000825",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000310",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000826",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000310",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000827",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000310",
+      "from_status": "grouped",
+      "to_status": "repaired_pending_review",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Repair job progress recorded",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000828",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000311",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000829",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000311",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000830",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000311",
+      "from_status": "grouped",
+      "to_status": "assigned",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Repair job progress recorded",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000831",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000312",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-10-09T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000832",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000313",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-10-09T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000833",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000314",
+      "from_status": null,
+      "to_status": "submitted",
+      "actor_id": "00000000-0000-4000-8000-000000000002",
+      "reason": "Citizen submitted a photo and location",
+      "created_at": "2026-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000834",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000314",
+      "from_status": "submitted",
+      "to_status": "grouped",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed the road and location; permanent citizen ticket retained",
+      "created_at": "2026-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000835",
+      "entity_type": "report",
+      "entity_id": "00000000-0000-4000-8000-000000000314",
+      "from_status": "grouped",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Reviewer verified the repair and after-photo",
+      "created_at": "2026-07-02T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000836",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000203",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000837",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000203",
+      "from_status": "open",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Repair verified with after-photo",
+      "created_at": "2026-07-02T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000838",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000201",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-08-05T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000839",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000201",
+      "from_status": "open",
+      "to_status": "closed",
+      "actor_id": "00000000-0000-4000-8000-000000000004",
+      "reason": "Repair verified with after-photo",
+      "created_at": "2026-08-26T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000840",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000202",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000841",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000204",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000842",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000204",
+      "from_status": "open",
+      "to_status": "assigned",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed severity and assigned a repair job",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000843",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000205",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000844",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000206",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-09-27T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000845",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000206",
+      "from_status": "open",
+      "to_status": "assigned",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed severity and assigned a repair job",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000846",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000207",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000847",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000207",
+      "from_status": "open",
+      "to_status": "repaired_pending_review",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed severity and assigned a repair job",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000848",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000208",
+      "from_status": null,
+      "to_status": "open",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed a separate incident",
+      "created_at": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000849",
+      "entity_type": "incident",
+      "entity_id": "00000000-0000-4000-8000-000000000208",
+      "from_status": "open",
+      "to_status": "assigned",
+      "actor_id": "00000000-0000-4000-8000-000000000003",
+      "reason": "Officer confirmed severity and assigned a repair job",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    }
+  ],
+  "notes": [],
+  "officers": [
+    {
+      "id": "00000000-0000-4000-8000-000000000003",
+      "name": "Arun Kumar"
+    }
+  ],
+  "demo": true,
+  "role": "officer",
+  "name": "Arun Kumar",
+  "userId": "00000000-0000-4000-8000-000000000003"
+}

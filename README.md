@@ -1,3 +1,4 @@
+> Source version: this repository now includes the Next.js RoadWatch application and its complete source history through commit `6d2565e`, alongside the repository's original history and license. This is the earlier public demo with a browser-local `/try` lifecycle. The newer integrated countdown demo at https://roadwatch-repair-countdown.just-cream-1659.chatgpt.site/ was inspected, but its source files were not available for this upload. See [source setup and verification notes](docs/SOURCE-README.md) and [button audit](docs/BUTTON-AUDIT.md).
 <div align="center">
 
 <img src="public/icon-512.png" alt="RoadWatch logo" width="96" height="96" />
@@ -211,3 +212,4 @@ docs/           handoff, button audit, UI and reliability review
 <div align="center">
 <sub>Built for accountable roads · Deterministic rules · Human decisions · Lasting memory</sub>
 </div>
+
